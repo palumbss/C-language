@@ -1,0 +1,10 @@
+#include <stdio.h>
+int main(){
+  float x = 10.0;
+  float y=3.0;
+  float z;
+  z=x/y;
+  printf("Un numero di tipo float occupa %u/n", sizeof(float));
+  printf("Un numero di tipo double occupa %u\n", sizeof(double));
+  printf("x / y = %f\n", z);
+}
